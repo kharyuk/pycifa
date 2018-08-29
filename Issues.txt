@@ -1,0 +1,14 @@
+Known issues:
+
+1. demo_classify():
+    scikit-learn realisation of KNN classifier does not support acceleration
+    for 'correlation' distance. It causes slower behaviour (in comarison with
+    'euclidean' distance).
+    
+2. demo_faceClustering :: mmc_nn(), constructW():
+   Low perfomance; matlab code performs well what makes me conclude
+   that several errors are in python version of these functions.
+    
+3. documentation:
+    Current version of package has a very poor documentation.
+    
